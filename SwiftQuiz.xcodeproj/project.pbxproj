@@ -56,15 +56,47 @@
 		A58B73F426EBBD2C00289B92 /* SwiftQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				A58B73F526EBBD2C00289B92 /* AppDelegate.swift */,
-				A58B73F726EBBD2C00289B92 /* SceneDelegate.swift */,
-				A58B73F926EBBD2C00289B92 /* ViewController.swift */,
-				A58B73FB26EBBD2C00289B92 /* Main.storyboard */,
-				A58B73FE26EBBD2D00289B92 /* Assets.xcassets */,
-				A58B740026EBBD2D00289B92 /* LaunchScreen.storyboard */,
-				A58B740326EBBD2D00289B92 /* Info.plist */,
+				A58B740C26EBBDFA00289B92 /* App */,
+				A58B740A26EBBD8E00289B92 /* ViewControllers */,
+				A58B740926EBBD7900289B92 /* Storyboards */,
+				A58B740B26EBBDE700289B92 /* Resourses */,
 			);
 			path = SwiftQuiz;
+			sourceTree = "<group>";
+		};
+		A58B740926EBBD7900289B92 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A58B73FB26EBBD2C00289B92 /* Main.storyboard */,
+				A58B740026EBBD2D00289B92 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A58B740A26EBBD8E00289B92 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A58B73F926EBBD2C00289B92 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A58B740B26EBBDE700289B92 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				A58B73FE26EBBD2D00289B92 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		A58B740C26EBBDFA00289B92 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A58B73F526EBBD2C00289B92 /* AppDelegate.swift */,
+				A58B73F726EBBD2C00289B92 /* SceneDelegate.swift */,
+				A58B740326EBBD2D00289B92 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K242QA4C2Z;
-				INFOPLIST_FILE = SwiftQuiz/Info.plist;
+				INFOPLIST_FILE = SwiftQuiz/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Maria.Karpukhina.SwiftQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K242QA4C2Z;
-				INFOPLIST_FILE = SwiftQuiz/Info.plist;
+				INFOPLIST_FILE = SwiftQuiz/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Maria.Karpukhina.SwiftQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
