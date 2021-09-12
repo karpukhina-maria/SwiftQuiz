@@ -16,48 +16,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift language test" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfL-mt-6rk">
-                                <rect key="frame" x="99.5" y="184" width="215" height="53.5"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="SqE-1m-r8b">
-                                <rect key="frame" x="20" y="287.5" width="374" height="109"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="SqE-1m-r8b">
+                                <rect key="frame" x="40" y="398" width="334" height="100"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите своё имя" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1wo-kU-OEK">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="793-im-dz2">
-                                        <rect key="frame" x="0.0" y="73" width="374" height="36"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <rect key="frame" x="0.0" y="64" width="334" height="36"/>
+                                        <color key="backgroundColor" red="0.76752537489999995" green="0.4473409653" blue="0.44313001629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Начать тест"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="0qA-3N-t4g" kind="presentation" modalPresentationStyle="fullScreen" id="5VH-a6-NG3"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_7345.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="ShS-3L-cWT" userLabel="Boy">
+                                <rect key="frame" x="94" y="651" width="226" height="191"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_7349.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Jmn-ak-vkz">
+                                <rect key="frame" x="16" y="60" width="290" height="194"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_7339.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="6rw-Tb-rd6">
+                                <rect key="frame" x="112" y="261.5" width="190" height="160"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" red="0.17068278789999999" green="0.70590072869999998" blue="0.99219506980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="SqE-1m-r8b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7F8-Mh-lGw"/>
-                            <constraint firstItem="vfL-mt-6rk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cK2-H8-Jj3"/>
-                            <constraint firstItem="SqE-1m-r8b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="d5y-ZF-B0Z"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SqE-1m-r8b" secondAttribute="trailing" constant="20" id="jp4-my-3VZ"/>
-                            <constraint firstItem="vfL-mt-6rk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="nuz-0P-Unb"/>
-                            <constraint firstItem="SqE-1m-r8b" firstAttribute="top" secondItem="vfL-mt-6rk" secondAttribute="bottom" constant="50" id="sLz-cW-iPv"/>
+                            <constraint firstItem="SqE-1m-r8b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="0v0-bj-Rra"/>
+                            <constraint firstItem="Jmn-ak-vkz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="49E-bJ-rNZ"/>
+                            <constraint firstItem="6rw-Tb-rd6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="94c-Sp-aXP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6rw-Tb-rd6" secondAttribute="trailing" constant="112" id="BnN-cV-4Ma"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jmn-ak-vkz" secondAttribute="trailing" constant="108" id="CUY-rg-d17"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ShS-3L-cWT" secondAttribute="bottom" constant="20" id="NeS-Si-nNG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SqE-1m-r8b" secondAttribute="trailing" constant="40" id="Z7t-US-WRx"/>
+                            <constraint firstItem="Jmn-ak-vkz" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.216549" id="eQu-LS-l25"/>
+                            <constraint firstItem="ShS-3L-cWT" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.213028" id="kvw-Mw-K7X"/>
+                            <constraint firstItem="6rw-Tb-rd6" firstAttribute="top" secondItem="Jmn-ak-vkz" secondAttribute="bottom" constant="7.5" id="lwx-uZ-sd7"/>
+                            <constraint firstItem="Jmn-ak-vkz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sal-ha-r47"/>
+                            <constraint firstItem="ShS-3L-cWT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="v1M-fd-ybw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ShS-3L-cWT" secondAttribute="trailing" constant="94" id="wg8-1b-7in"/>
+                            <constraint firstItem="SqE-1m-r8b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xxw-Km-MFC"/>
+                            <constraint firstItem="6rw-Tb-rd6" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.178411" id="yEB-aV-mbq"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="170.625" y="72.887323943661968"/>
+            <point key="canvasLocation" x="165.59999999999999" y="70.614692653673174"/>
         </scene>
         <!--Номер вопроса 3 из 7-->
         <scene sceneID="Y3G-DB-BLn">
@@ -266,14 +283,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_7339.PNG" width="1080" height="1350"/>
+        <image name="IMG_7345.PNG" width="1242" height="2208"/>
+        <image name="IMG_7349.jpg" width="302" height="207.33332824707031"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
